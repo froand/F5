@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "f5-bigip"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "adminUsername": {
+            "value": "adminuser"
+        },
+        "storageAccountName": {
+            "value": "testrgdisks181"
+        },
+        "virtualNetworkName": {
+            "value": "TestRG-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "f5-bigip359"
+        },
+        "networkSecurityGroupName": {
+            "value": "f5-bigip-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "availabilitySetName": {
+            "value": "AV22"
+        },
+        "availabilitySetPlatformFaultDomainCount": {
+            "value": "2"
+        },
+        "availabilitySetPlatformUpdateDomainCount": {
+            "value": "2"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "testrgdiag147"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/testrgdiag147"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "f5-bigip-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
